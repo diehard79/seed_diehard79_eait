@@ -1,0 +1,9 @@
+{
+  "symbol": ["NIFTY_FTR"],
+  "description": ["NIFTY eAIT fTR forecast"],
+  "currency": ["INR"],
+  "session-regular": ["0000-2359"],
+  "timezone": ["Asia/Kolkata"],
+  "pricescale": [100],
+  "minmove": [1]
+}

@@ -3,7 +3,7 @@
 This is a bridge to share data between eAIT and TradingView PineScript.
 
 ## Data Files:
-1. nifty_fTR.csv : NIFTY fTR data is in Close
+1. data/NIFTY_FTR.csv : NIFTY fTR data is in Close (symbol NIFTY_FTR; Pine: `request.seed("seed_diehard79_eait", "NIFTY_FTR", close)`)
 
 ## Details:
 `seed_crypto_santiment` is someone else's repo, so you can't push to it. `request.seed()` reads from a public GitHub repo that you own and that follows TradingView's Pine Seeds layout. You push your data to that repo, and TradingView picks it up on a schedule. This works from memory of the Pine Seeds docs, so check the field names against the current docs.
